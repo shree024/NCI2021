@@ -8,7 +8,7 @@ require('dotenv').config()
 
 // let's load our environment variables
 infuraToken = "96277e8f7e7145398ec32b03e2936820"
-contractAddress = "0x7fd8897246a3c82abbd92df8dda25648574650c3"
+contractAddress = "0x04215cae58a3167e4f18ea4fbc60bbf176294e64"
 ownerAddress = "0x87e0e290795daC639b4A6305D349D430539b60c0"
 
 // set up a RPC (remote procedure call) to connect to an ethereum node

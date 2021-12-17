@@ -20,7 +20,7 @@ require('dotenv').config()
 
 // let's load our environment variables
 infuraToken = "96277e8f7e7145398ec32b03e2936820"
-contractAddress = "0x7fd8897246a3c82abbd92df8dda25648574650c3"
+contractAddress = "0x04215cae58a3167e4f18ea4fbc60bbf176294e64"
 ownerAddress = "0x87e0e290795daC639b4A6305D349D430539b60c0"
 privateKey = Buffer.from("8b4eb752261f612a5baeba83c34b197b18503675d4ef2bdc9e88cf118629b26a", 'hex')
 
