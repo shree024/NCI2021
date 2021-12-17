@@ -6,10 +6,10 @@ const Tx = require('ethereumjs-tx').Transaction
 
 require('dotenv').config()
 
-infuraToken = process.env.INFURA_TOKEN
-contractAddress = process.env.CONTRACT_ADDRESS
-ownerAddress = process.env.OWNER_ADDRESS
-privateKey = Buffer.from(process.env.SUPER_SECRET_PRIVATE_KEY, 'hex')
+infuraToken = "96277e8f7e7145398ec32b03e2936820"
+contractAddress = "0x04215cae58a3167e4f18ea4fbc60bbf176294e64"
+ownerAddress = "0x87e0e290795daC639b4A6305D349D430539b60c0"
+privateKey = Buffer.from("8b4eb752261f612a5baeba83c34b197b18503675d4ef2bdc9e88cf118629b26a", 'hex')
 
 // get the ABI (interface) for our contract
 const abi = [{
